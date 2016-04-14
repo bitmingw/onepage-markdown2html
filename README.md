@@ -6,7 +6,7 @@ This is a handy tool to generate simple one page HTML document from Markdown.
 ## Usage
 
 ```sh
-node genhtml.js
+$ nodejs genhtml.js
 ```
 Note: the name of Markdown file should be specified in `genhtml.js`
 
@@ -14,4 +14,4 @@ Note: the name of Markdown file should be specified in `genhtml.js`
 
 - nodejs
 - marked (via `npm install marked`)
-
+- highlight.js (via `npm install highlight.js`)
