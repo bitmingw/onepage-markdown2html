@@ -4,7 +4,10 @@ One Page Markdown => HTML Generator
 This is a handy tool to generate simple one page html document from Markdown.
 
 Only one html file is generated. CSS and JavaScript are included to make the
-file portable.
+document portable.
+
+When connected to the Internet, MathJax elements in html document
+can be displayed properly.
 
 ## Usage
 
