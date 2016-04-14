@@ -12,8 +12,8 @@ var stylefilename = 'style-script.html'
 var footfilename = 'footer.html';
 
 // specify you own file here
-var infilename = 'test.md';
-var outfilename = 'test.html';
+var infilename = 'YOUR-MARKDOWN-FILE.md';
+var outfilename = 'YOUR-OUTPUT-FILE.html';
 
 fs.readFile(headfilename, {encoding: 'utf8'}, function(err, data) {
 	if (err) throw err;
