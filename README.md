@@ -15,12 +15,13 @@ can be displayed properly.
 2. Register the page title at `header.html`
 3. Specify input & output file names at `genhtml.js`
 4. Generate your html file by execute the following command
+
 ```sh
-$ nodejs genhtml.js
+$ node genhtml.js
 ```
 
 ## Requirement
 
-- nodejs
+- node.js
 - marked (via `npm install marked --save`)
 - highlight.js (via `npm install highlight.js --save`)
